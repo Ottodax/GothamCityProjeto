@@ -40,7 +40,8 @@ body * {
   color: var(--texr-color);
 }
 #container {
-  width: 350px;
+  width: 100%;
+  max-width: 588px;
   height: 712px;
   margin: auto;
   padding: 0 24px;
