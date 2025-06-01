@@ -11,7 +11,7 @@ body {
 }
 
 :root {
-  --texr-color: white;
+  --text-color: white;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
@@ -21,7 +21,7 @@ body {
 }
 
 .light {
-  --texr-color: black;
+  --text-color: black;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
@@ -141,7 +141,7 @@ ul li a {
 /* pseudo-selector */
 ul li a:hover {
   background: var(--surface-color-hover);
-  border: 1, 5px solid var(--texr-color);
+  border: 1.5px solid var(--text-color);
 }
 /*social likins*/
 #social-links {
